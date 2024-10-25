@@ -1,0 +1,54 @@
+:root {
+	--border-radius: 5px;
+}
+
+.calculate {
+	width: 200px;
+	background-color: #eee;
+	border-radius: var(--border-radius);
+	border: 1px solid #aca7a7;
+	padding: 10px;
+}
+
+.screen {
+	border: 1px solid #aca7a7;
+	border-radius: var(--border-radius);
+	box-shadow:
+		5px 5px 10px #b9bbc4,
+		-5px -5px 12px #fff;
+	margin-bottom: 20px;
+	height: 40px;
+	font-size: 20px;
+	padding: 0 10px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.red {
+	color: red;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+button {
+	/* margin: 2px; */
+	width: 60px;
+	height: 40px;
+	border: 1px solid #aca7a7;
+	border-radius: var(--border-radius);
+	box-shadow:
+		5px 5px 10px #b9bbc4,
+		-5px -5px 12px #fff;
+	outline: none;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.red {
+	color: red;
+}
